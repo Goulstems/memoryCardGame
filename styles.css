@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    align-items: center; /* Centers vertically */
+    justify-content: center;  /* Centers horizontally */
+    font-size: 40px;
+    outline: 5px solid blue;
+    cursor: pointer;
+}
+#game {
+    display: grid;
+    grid-template-columns: repeat(4, 100px); /* repeat (# of columns, width) */
+    row-gap: 25px;
+    column-gap: 80px;
+    justify-content: center;
+    margin-top: 50px;
+}
