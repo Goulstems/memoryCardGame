@@ -30,4 +30,5 @@ body {
 
 .matched {
     background-color: rgb(209, 147, 14);
+    outline: 5px solid rgb(188, 150, 9);
 }
